@@ -4,9 +4,12 @@ import {getAll,getTodoById,addNew,editTodo,deleteTodo} from "../controllers/todo
 
 const router=express.Router()
 
-router.route("/").get(logRequests,getAll).post(logRequests,addNew)
-
-router.route("/:todoId").put(logRequests,editTodo).get(logRequests,getTodoById).delete(logRequests,deleteTodo)
-
+router.route("/").get(getAll).post(addNew)
+router.route("/:todoId").put(editTodo).get(getTodoById).delete(deleteTodo)
 
 export default router;
+
+
+// router.route("/").get(logRequests,getAll).post(logRequests,addNew)
+// router.route("/:todoId").put(logRequests,editTodo).get(logRequests,getTodoById).delete(logRequests,deleteTodo)
+

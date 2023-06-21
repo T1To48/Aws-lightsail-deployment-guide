@@ -3,8 +3,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const apiSlice = createApi({
   reducerPath: "api",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:8080",
-    // baseUrl: "http://localhost:8080/todo-storage/v1", FOR Logger Testing Doesn't work with 3rd party deloyments services
+    baseUrl: "http://localhost:8080/todo-storage/v1",
   }),
   tagTypes: ["Post"],
   endpoints: (builder) => ({
