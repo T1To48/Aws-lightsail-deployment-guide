@@ -13,7 +13,7 @@ Note: This guide assumes you have basic knowledge of Amazon Lightsail, Nginx, an
 Happy deploying!
 
 ## 1 open new instance in AWS-lightSail
-choose the following:
+choose the following:  
 A.LOCATION USA  
 B.LINUX  
 C.(OS ONLY)  
