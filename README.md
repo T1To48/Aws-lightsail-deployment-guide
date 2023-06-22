@@ -103,8 +103,8 @@ server_name 3.89.98.227;
 F.in the file find: 
 _____________________________________________________
 location / {
-# First attempt to serve request as file, then
-# as directory, then fall back to displaying a 404.
+First attempt to serve request as file, then
+as directory, then fall back to displaying a 404.
 try_files $uri $uri/ =404;
 }
 _____________________________________________________
