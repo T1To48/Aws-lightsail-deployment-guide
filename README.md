@@ -14,10 +14,10 @@ Happy deploying!
 
 ## 1 open new instance in AWS-lightSail
 choose the following:
-A.LOCATION USA
-B.LINUX
-C.(OS ONLY)
-D.UBUNTU
+A.LOCATION USA  
+B.LINUX  
+C.(OS ONLY)  
+D.UBUNTU  
 
 ## 2 open the instace's Terminal
 ## 3 install Nodejs 
