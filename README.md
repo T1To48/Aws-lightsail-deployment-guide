@@ -50,7 +50,7 @@ A.copy ur AWS instance's public id
 B.run the following to add the server baseurl in the client:
 sudo nano aws-todo-app-deployment/client/src/features/api/apiSlice.jsx
 C.ur baseUrl should be :
-baseUrl: "http://<public ip>/todo-storage/v1"
+baseUrl: "http://"public ip"/todo-storage/v1"
 EXAMPLE :
 baseUrl: "http://3.89.98.227/todo-storage/v1"
 D.Save the changes and exit 
@@ -97,7 +97,7 @@ C.change to :
 D.in the file find: 
 server_name _;
 E.change to :
-server_name <the instance public ip>;
+server_name "the instance public ip";
 for example :
 server_name 3.89.98.227;
 F.in the file find: 
@@ -128,7 +128,7 @@ sudo service nginx restart
 
 ## 14
 open your browser, go to :
-http://<you public ip>
+http://"you public ip"
 for example:
 http://3.89.98.227
 
