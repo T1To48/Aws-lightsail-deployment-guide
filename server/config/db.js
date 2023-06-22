@@ -6,9 +6,9 @@ const connectDB = async () => {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
-    console.log(`🙃🙃 Mogbo DB is connected ${conn.connection.host} 🙃🙃`);
+    console.log(`Mogbo DB is connected ${conn.connection.host}`);
   } catch (Error) {
-    console.log(`🏮🏮🏮 ${Error} 🏮🏮🏮`);
+    console.log(`!!! ${Error} !!!`);
   }
 };
 export default connectDB;
